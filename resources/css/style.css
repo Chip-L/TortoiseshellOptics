@@ -16,7 +16,6 @@ header {
 
   background-color: cadetblue;
   color: white;
-  margin-top: 1rem;
 }
 
 header .logo {
@@ -40,9 +39,32 @@ header .logo {
 }
 
 nav {
-  padding: 1rem 0;
+  padding: 1rem 0; /* pad here so the borders are correct */
 }
 
 nav span {
   margin-right: 2rem;
+}
+
+/* Banner */
+.banner {
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  background-position: center;
+
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+.callout {
+  display: inline-block;
+  float: right;
+
+  margin: 10rem -2rem 0 0;
+  padding: 1.5rem 5rem;
+
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
 }
