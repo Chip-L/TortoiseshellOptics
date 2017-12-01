@@ -1,4 +1,4 @@
-head {
+html {
   font-size: 18px;
   font-family: Helvetica;
   line-height: 1.4;
@@ -12,7 +12,7 @@ head {
 /* Header properties */
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* logo and Nav */
 
   background-color: cadetblue;
   color: white;
@@ -23,8 +23,6 @@ header .logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
-  flex-grow: 1;
 }
 
 .logo .image {
@@ -39,4 +37,12 @@ header .logo {
 
 .logo span {
   margin-left: 1rem;
+}
+
+nav {
+  padding: 1rem 0;
+}
+
+nav span {
+  margin-right: 2rem;
 }
