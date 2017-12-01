@@ -16,6 +16,7 @@ header {
 
   background-color: cadetblue;
   color: white;
+  margin-top: 1rem;
 }
 
 header .logo {
@@ -37,5 +38,5 @@ header .logo {
 }
 
 .logo span {
-  
+  margin-left: 1rem;
 }
