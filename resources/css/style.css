@@ -31,9 +31,14 @@ footer {
   align-items: center;
 }
 
+.logo span {
+  margin-left: 1rem;
+}
+
 .image {
   height: 1.5rem;
 }
+
 header .image {
   margin-left: 2rem;
 }
@@ -41,10 +46,6 @@ header .image {
 .image img {
   height: 100%;
   width: auto;
-}
-
-.logo span {
-  margin-left: 1rem;
 }
 
 nav {
@@ -121,7 +122,7 @@ nav span {
 
 .info-header {
   width: 10rem;
-  padding: .5rem 1.25rem;
+  padding: 0.5rem 1.25rem;
   display: block;
 
   background-color: cadetblue;
@@ -131,4 +132,28 @@ nav span {
 
 .info-text {
   margin-top: 1rem;
+}
+
+/* tablet sizing */
+@media only screen and (max-width: 960px) {
+  .site-container {
+    width: 100%;
+  }
+
+  .banner {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  .callout {
+    margin: 5rem 2rem 0 0;
+    padding: 0.75rem 4rem;
+
+    font-size: 1.33rem;
+  }
+} /* end max-width: 960px */
+
+/* mobile sizing */
+@media only screen and (max-width: 600px) {
+  
 }
