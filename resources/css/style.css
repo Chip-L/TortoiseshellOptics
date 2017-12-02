@@ -88,6 +88,7 @@ nav .menu {
 .icon-section {
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
 
     margin-top: 3rem;
   }
@@ -100,6 +101,7 @@ nav .menu {
   width: 5rem;
   height: 8rem;
   padding: 0 3rem;
+
   text-align: center;
 }
 
@@ -117,11 +119,12 @@ nav .menu {
 .info-section {
   display: flex;
   justify-content: center;
+
+  margin-top: 3rem;
 }
 
 .info-group {
   width: 35%;
-  margin-top: 3rem;
   margin-right: 5%;
 }
 
@@ -159,6 +162,9 @@ nav .menu {
 
     font-size: 1.33rem;
   }
+
+  /* Icons */
+
 } /* end max-width: 960px */
 
 /* mobile sizing */
@@ -191,5 +197,18 @@ nav .menu {
 
     font-size: 1rem;
     text-align: center;
+  }
+
+  /* Icons */
+  .icon-section {
+      flex-wrap: wrap;
+
+      margin-top: 3.77rem;
+    }
+
+  .icon-group {
+    margin-bottom: 1.54rem;
+
+    font-size: 0.77rem;
   }
 }
