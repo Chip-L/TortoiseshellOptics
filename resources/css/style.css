@@ -164,7 +164,7 @@ nav .menu {
   }
 
   /* Icons */
-
+  /* Information */
 } /* end max-width: 960px */
 
 /* mobile sizing */
@@ -210,5 +210,26 @@ nav .menu {
     margin-bottom: 1.54rem;
 
     font-size: 0.77rem;
+  }
+
+  /* Information */
+  .info-section {
+    display: block;
+
+    margin-top: 3.77rem;
+  }
+
+  .info-group {
+    width: inherit;
+    margin-right: auto;
+    margin-bottom: 4rem;
+
+    font-size: 0.77rem;
+  }
+
+  .info-header {
+    width: 100%;
+
+    text-align: center;
   }
 }
