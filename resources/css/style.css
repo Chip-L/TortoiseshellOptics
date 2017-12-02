@@ -82,20 +82,16 @@ nav span {
   flex-direction: column;
   justify-content: space-between;
 
+  width: 5rem;
   height: 8rem;
   padding: 0 3rem;
   text-align: center;
 }
 
-.icon-group .narrow {
+.icon-group .narrow { /* use this when the image is taller than wide. wide isn't needed, it will just work off of the icon-group. */
   width: 3.5rem;
   height: auto;
-  margin: 0 auto;
-}
-
-.icon-group .wide {
-  width: 6rem;
-  height:
+  margin: 0 auto; /* centers the image */
 }
 
 .icon-image img {
