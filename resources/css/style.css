@@ -9,7 +9,7 @@ html {
   margin: 0 auto;
 }
 
-/* Header properties */
+/* Header/footer properties */
 header {
   display: flex;
   justify-content: space-between; /* logo and Nav */
@@ -18,15 +18,24 @@ header {
   color: white;
 }
 
-header .logo {
+footer {
+  padding: 4rem;
+  margin-top: 5rem;
+  background-color: azure;
+
+}
+
+.logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.logo .image {
-  margin-left: 2rem;
+.image {
   height: 1.5rem;
+}
+header .image {
+  margin-left: 2rem;
 }
 
 .image img {
