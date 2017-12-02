@@ -68,3 +68,36 @@ nav span {
   font-size: 2rem;
   line-height: 1.2;
 }
+
+/* Icons */
+.icon-section {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3rem;
+  }
+
+.icon-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 8rem;
+  padding: 0 3rem;
+  text-align: center;
+}
+
+.icon-group .narrow {
+  width: 3.5rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.icon-group .wide {
+  width: 6rem;
+  height:
+}
+
+.icon-image img {
+  width: 100%;
+}
