@@ -56,6 +56,10 @@ nav span {
   margin-right: 2rem;
 }
 
+nav .menu {
+  display: none;
+}
+
 /* Banner */
 .banner {
   background-image: url("../images/glasses-bg.png");
@@ -155,5 +159,18 @@ nav span {
 
 /* mobile sizing */
 @media only screen and (max-width: 600px) {
+  /* Header/Footer */
+  .logo span {
+    display: none;
+  }
+
+  nav span {
+    display: none;
+  }
+
+  nav .menu {
+    display: inherit;
+  }
+
   
 }
